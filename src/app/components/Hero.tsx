@@ -12,6 +12,8 @@ const roles = [
   "Experience Architect",
 ];
 
+const RESUME_PDF_URL = "/resume.pdf";
+
 function TypewriterRole() {
   const [index, setIndex] = useState(0);
   const [displayed, setDisplayed] = useState("");
@@ -194,7 +196,9 @@ export function Hero() {
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform duration-200" />
             </button>
             <a
-              href="#"
+              href={RESUME_PDF_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group flex items-center gap-2 px-7 py-3.5 rounded-full border border-white/20 text-white/80 hover:border-white/40 hover:bg-white/5 hover:scale-[1.03] active:scale-[0.97] transition-all duration-200"
               style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 600, fontSize: "0.9rem" }}
             >

@@ -3,7 +3,7 @@ import { motion, useInView } from "motion/react";
 import { ArrowRight, Download, MousePointer2 } from "lucide-react";
 
 const PHOTO_URL =
-  "https://cdn.discordapp.com/attachments/1295417454805258281/1494570386648600616/z7683635501284_dbcb515d1e37dfd7c3f78f91c92ad5d5.jpg?ex=69e46823&is=69e316a3&hm=2b9e546e77b628edbb0254a82b295597a7bcac5ba37e85255a3acfe1f150e0ef&";
+  "https://media.discordapp.net/attachments/1295417454805258281/1494570386648600616/z7683635501284_dbcb515d1e37dfd7c3f78f91c92ad5d5.jpg?ex=69e70b23&is=69e5b9a3&hm=66e72c6b1dcea8f871b9df567af6d841ab7eee9d18c2ad8a60e35eb48a09d725&=&format=webp&width=741&height=989";
 
 const roles = [
   "UX/UI Designer",

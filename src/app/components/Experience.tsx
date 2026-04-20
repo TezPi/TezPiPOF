@@ -3,10 +3,10 @@ import { motion, useInView } from "motion/react";
 import { ArrowUpRight, TrendingUp, Clock, Target } from "lucide-react";
 
 const MURROR_IMG =
-  "https://images.unsplash.com/photo-1642557581366-539b6fed5998?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZW50YWwlMjB3ZWxsbmVzcyUyMG1vYmlsZSUyMGFwcCUyMFVJJTIwZGVzaWdufGVufDF8fHx8MTc3NjM2NTc2OXww&ixlib=rb-4.1.0&q=80&w=1080";
+  "https://media.discordapp.net/attachments/1295417454805258281/1495741942942793929/497470654_676221021824449_1276509526989033034_n.jpg?ex=69e759bc&is=69e6083c&hm=fe3318c163620d9de22a095c1e3f82e3e53c8968f8cb39b44269e97a550a5e8a&=&format=webp&width=859&height=859";
 
 const INKLAB_IMG =
-  "https://images.unsplash.com/photo-1663430218780-889edbb73e48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0YXR0b28lMjBhdWdtZW50ZWQlMjByZWFsaXR5JTIwYXBwJTIwZGVzaWdufGVufDF8fHx8MTc3NjM2NTc2OXww&ixlib=rb-4.1.0&q=80&w=1080";
+  "https://media.discordapp.net/attachments/1295417454805258281/1495766666083176458/BG_Image_done.png?ex=69e770c3&is=69e61f43&hm=ce01a6876e774c8cfc1dc0fb1716ff08199c61fab58f0f8f5e366d5a33140e2e&=&format=webp&quality=lossless&width=713&height=713";
 
 interface MetricProps {
   value: string;

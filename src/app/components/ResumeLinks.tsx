@@ -26,6 +26,8 @@ const links = [
   },
 ];
 
+const RESUME_PDF_URL = "/resume.pdf";
+
 export function ResumeLinks() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
@@ -79,7 +81,9 @@ export function ResumeLinks() {
             </p>
 
             <a
-              href="#"
+              href={RESUME_PDF_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-[#12111A] text-white hover:bg-gradient-to-r hover:from-[#5D52FF] hover:to-[#7B72FF] hover:shadow-xl hover:shadow-[#5D52FF]/25 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
               style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 700 }}
             >

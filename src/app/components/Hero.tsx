@@ -3,7 +3,7 @@ import { motion, useInView } from "motion/react";
 import { ArrowRight, Download, MousePointer2 } from "lucide-react";
 
 const PHOTO_URL =
-  "https://media.discordapp.net/attachments/1295417454805258281/1494570386648600616/z7683635501284_dbcb515d1e37dfd7c3f78f91c92ad5d5.jpg?ex=69e70b23&is=69e5b9a3&hm=66e72c6b1dcea8f871b9df567af6d841ab7eee9d18c2ad8a60e35eb48a09d725&=&format=webp&width=741&height=989";
+  "https://media.discordapp.net/attachments/1295417454805258281/1494570386648600616/z7683635501284_dbcb515d1e37dfd7c3f78f91c92ad5d5.jpg?ex=69f23fe3&is=69f0ee63&hm=39526cb57a40b41a363b78e7f857c12ab4f9f1d3a851afa09ba0aed832657057&=&format=webp&width=754&height=1006";
 
 const roles = [
   "UX/UI Designer",
@@ -11,6 +11,8 @@ const roles = [
   "Interaction Craftsman",
   "Experience Architect",
 ];
+
+const RESUME_PDF_URL = "https://drive.google.com/file/d/1AkhhGsxndORe0Ts_mIRUX8me_UHTNFpf/view?usp=drive_link";
 
 function TypewriterRole() {
   const [index, setIndex] = useState(0);
@@ -174,7 +176,7 @@ export function Hero() {
               lineHeight: 1.5,
             }}
           >
-            "I design experiences that people don't just use —{" "}
+             "I design experiences that people don't just use —{" "}
             <span className="text-white/80 not-italic" style={{ fontFamily: "'DM Serif Display', serif", fontStyle: "normal" }}>they enjoy.</span>"
           </motion.p>
 
@@ -194,7 +196,10 @@ export function Hero() {
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform duration-200" />
             </button>
             <a
-              href="#"
+              href="https://drive.google.com/file/d/1AkhhGsxndORe0Ts_mIRUX8me_UHTNFpf/view?usp=drive_link"
+              href={"https://drive.google.com/file/d/1AkhhGsxndORe0Ts_mIRUX8me_UHTNFpf/view?usp=drive_link"}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group flex items-center gap-2 px-7 py-3.5 rounded-full border border-white/20 text-white/80 hover:border-white/40 hover:bg-white/5 hover:scale-[1.03] active:scale-[0.97] transition-all duration-200"
               style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 600, fontSize: "0.9rem" }}
             >

@@ -215,8 +215,8 @@ export function Hero() {
             className="flex gap-8 mt-12 pt-8 border-t border-white/10"
           >
             {[
-              { value: "3+", label: "Years Experience" },
-              { value: "15+", label: "Projects Shipped" },
+              { value: "1+", label: "Years Experience" },
+              { value: "5+", label: "Projects Shipped" },
               { value: "2", label: "Specializations" },
             ].map((stat) => (
               <div key={stat.label}>

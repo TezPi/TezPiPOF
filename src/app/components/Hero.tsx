@@ -3,7 +3,7 @@ import { motion, useInView } from "motion/react";
 import { ArrowRight, Download, MousePointer2 } from "lucide-react";
 
 const PHOTO_URL =
-  "https://media.discordapp.net/attachments/1295417454805258281/1494570386648600616/z7683635501284_dbcb515d1e37dfd7c3f78f91c92ad5d5.jpg?ex=69f23fe3&is=69f0ee63&hm=39526cb57a40b41a363b78e7f857c12ab4f9f1d3a851afa09ba0aed832657057&=&format=webp&width=754&height=1006";
+  "https://res.cloudinary.com/dswidgydc/image/upload/f_auto,q_auto/df0241f7-6a6e-440d-bef4-4b4131d0488d_oheamo";
 
 const roles = [
   "UX/UI Designer",
@@ -196,7 +196,6 @@ export function Hero() {
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform duration-200" />
             </button>
             <a
-              href="https://drive.google.com/file/d/1AkhhGsxndORe0Ts_mIRUX8me_UHTNFpf/view?usp=drive_link"
               href={"https://drive.google.com/file/d/1AkhhGsxndORe0Ts_mIRUX8me_UHTNFpf/view?usp=drive_link"}
               target="_blank"
               rel="noopener noreferrer"

@@ -6,10 +6,10 @@ const GAME_UI_IMG =
   "https://images.unsplash.com/photo-1651505942687-efc26cb528ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1lJTIwVUklMjBIVUQlMjBkZXNpZ24lMjBpbnRlcmZhY2UlMjBkYXJrfGVufDF8fHx8MTc3NjM2NTc3M3ww&ixlib=rb-4.1.0&q=80&w=1080";
 
 const MOBILE_IMG =
-  "https://images.unsplash.com/photo-1576153192396-180ecef2a715?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBIVUQlMjBkZXNpZ24lMjBwcm90b3R5cGUlMjB3aXJlZnJhbWV8ZW58MXx8fHwxNzc2MzY1Nzg4fDA&ixlib=rb-4.1.0&q=80&w=1080";
+  "https://res.cloudinary.com/dswidgydc/image/upload/v1777522017/612070050_860218116758071_4695924186292278241_n_a7wbl4.jpg";
 
 const ABSTRACT_IMG =
-  "https://images.unsplash.com/photo-1591541924200-d1217b346bf6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwYWJzdHJhY3QlMjBnZW9tZXRyaWMlMjBwYXR0ZXJuJTIwZGVzaWduJTIwcG9ydGZvbGlvfGVufDF8fHx8MTc3NjM2NTc4OHww&ixlib=rb-4.1.0&q=80&w=1080";
+  "https://res.cloudinary.com/dswidgydc/image/upload/v1777521712/video_Frame_txajhg.png";
 
 const DESIGNER_IMG =
   "https://images.unsplash.com/photo-1621111848501-8d3634f82336?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxVWCUyMFVJJTIwZGVzaWduZXIlMjBjcmVhdGl2ZSUyMHdvcmtzcGFjZSUyMHBvcnRyYWl0fGVufDF8fHx8MTc3NjM2NTc2M3ww&ixlib=rb-4.1.0&q=80&w=1080";

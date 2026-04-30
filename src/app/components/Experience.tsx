@@ -3,10 +3,10 @@ import { motion, useInView } from "motion/react";
 import { ArrowUpRight, TrendingUp, Clock, Target } from "lucide-react";
 
 const MURROR_IMG =
-  "https://media.discordapp.net/attachments/1295417454805258281/1495741942942793929/497470654_676221021824449_1276509526989033034_n.jpg?ex=69e759bc&is=69e6083c&hm=fe3318c163620d9de22a095c1e3f82e3e53c8968f8cb39b44269e97a550a5e8a&=&format=webp&width=859&height=859";
+  "https://res.cloudinary.com/dswidgydc/image/upload/v1777520842/497470654_676221021824449_1276509526989033034_n_n2v5jh.jpg";
 
 const INKLAB_IMG =
-  "https://media.discordapp.net/attachments/1295417454805258281/1495766666083176458/BG_Image_done.png?ex=69e770c3&is=69e61f43&hm=ce01a6876e774c8cfc1dc0fb1716ff08199c61fab58f0f8f5e366d5a33140e2e&=&format=webp&quality=lossless&width=713&height=713";
+  "https://res.cloudinary.com/dswidgydc/image/upload/v1777520217/BG_Image_done_km98cy.png";
 
 interface MetricProps {
   value: string;

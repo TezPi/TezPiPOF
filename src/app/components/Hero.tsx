@@ -196,7 +196,7 @@ export function Hero() {
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform duration-200" />
             </button>
             <a
-              href={"https://drive.google.com/file/d/1AkhhGsxndORe0Ts_mIRUX8me_UHTNFpf/view?usp=drive_link"}
+              href={"https://drive.google.com/file/d/1idPriIIGHQVfgYdseW9rOFMY9ME7AklC/view?usp=drive_link"}
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-2 px-7 py-3.5 rounded-full border border-white/20 text-white/80 hover:border-white/40 hover:bg-white/5 hover:scale-[1.03] active:scale-[0.97] transition-all duration-200"

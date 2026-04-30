@@ -79,7 +79,7 @@ export function ResumeLinks() {
             </p>
 
             <a
-              href="/Resume-HoPhuThinh.pdf"
+              href="/ResumeHoPhuThinh.pdf"
               download="HoPhuThinh-Resume.pdf"
               className="group inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-[#12111A] text-white hover:bg-gradient-to-r hover:from-[#5D52FF] hover:to-[#7B72FF] hover:shadow-xl hover:shadow-[#5D52FF]/25 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
               style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 700 }}
